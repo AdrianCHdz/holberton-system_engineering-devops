@@ -1,0 +1,1 @@
+**In this project I will explore the permissions in the terminal*
