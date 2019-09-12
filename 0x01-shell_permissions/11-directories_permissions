@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -Rh ugo+x .
+chown -R ugo+x .
