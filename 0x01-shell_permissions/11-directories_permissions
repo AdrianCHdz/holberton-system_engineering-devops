@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -X ugo .
+chown -R ugo+x .
