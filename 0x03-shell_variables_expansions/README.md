@@ -1,0 +1,1 @@
+*In this day I will be learning the usage of variables*
