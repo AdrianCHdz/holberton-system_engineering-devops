@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays the PID with the precess name whose name contain "bash"
+
+pgrep -l bash

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script lists all the actual processes hierarchy in a user-oriented format
+
+ps axuf

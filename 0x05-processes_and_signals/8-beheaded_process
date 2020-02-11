@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script kills a traped process
+
+pkill -f -SIGKILL 7-highlander
