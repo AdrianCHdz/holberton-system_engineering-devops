@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script displays content of the currect dir
+LIST="$(ls)"
+for i in $LIST; do
+	echo "$i" | cut -d "-" -f 2- | xargs echo
+done
