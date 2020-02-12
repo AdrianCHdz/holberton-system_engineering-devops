@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# This file prints the numbers form 1 to 20 and if its 4, 9 or 17 prints a special string
+
+i=1
+while [ $i -le 20 ]
+do
+    echo $i
+    case $i in
+	4)
+	    echo "bad luck from China"
+	    ;;
+	9)
+	    echo "bad luck from Japan"
+	    ;;
+	17)
+	    echo "bad luck from Italy"
+    esac
+    i=$((i + 1))
+done
