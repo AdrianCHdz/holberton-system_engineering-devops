@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# This file prints  "Holbertonschool" 10 times
-
-i=0
-while [[ $i -le 10 ]]
-do
-    echo "Holberton School"
-    ((i++))
-done
