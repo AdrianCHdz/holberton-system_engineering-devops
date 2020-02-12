@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Get username from etc/passwd
+FILE="/etc/passwd"
+
+while read -r line; do
+	echo "$line" | cut -d ":" -f 1,3,6 | xargs echo
+done < $FILE
