@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-#comentary
-ssh -i ~/.ssh/holberton ubuntu@35.231.190.193
