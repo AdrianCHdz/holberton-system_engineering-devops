@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#bayona.me
+sed -i '/listen 80 default_server;/a rewrite ^/redirect_me https://www.bayona.me/ permanent;' /etc/nginx/sites-available/default
