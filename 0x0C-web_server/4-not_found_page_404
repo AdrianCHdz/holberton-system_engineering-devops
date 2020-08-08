@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#bayona.me
+sed -i '/server_name _;/a error_page 404 /custom_404.html;\nlocation = /custom_404.html {\nroot /usr/share/nginx/html;\ninternal;\n}' /etc/nginx/sites-available/default
