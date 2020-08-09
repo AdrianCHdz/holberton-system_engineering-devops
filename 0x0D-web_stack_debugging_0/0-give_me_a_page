@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 #Debbuging: apache service was not running thus no page was being shown
-sudo apt-get update
 sudo service apache2 restart
