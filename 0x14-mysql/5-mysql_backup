@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#This file will create a copy of the database and compress it
+FILE=$(date +%d-%m-%Y.tar.gz)
+mysqldump -uroot -p"$1" -hlocalhost --all-databases --opt > backup.sql
+tar -cvzf "$FILE" backup.sql
