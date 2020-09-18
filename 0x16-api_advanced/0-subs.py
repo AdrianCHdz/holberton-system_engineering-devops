@@ -5,6 +5,8 @@ from requests import get
 
 
 def number_of_subscribers(subreddit):
+    """This function will get the number of sbs of a subreddit
+    """
     headers = {"User-Agent":
                "(Windows NT 10.0; Win64; x64) Chrome/70.0.3538.77"}
     url = get("https://www.reddit.com/r/{}/about.json".
